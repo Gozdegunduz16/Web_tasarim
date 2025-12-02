@@ -1,0 +1,123 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    
+    color: #fff;
+    padding:  0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333333; /* Mavi başlık rengi */
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Bölümleri ayırmak için */
+}
+
+/* 1. Profil Fotoğrafı Stili */
+.profil-foto {
+    text-align: center;
+}
+
+.profil-foto img {
+    border-radius: 50%; /* Vesikalık fotoğraf için yuvarlak şekil */
+    width: 180px; /* Sabit boyut */
+    height: 180px;
+    object-fit: cover; /* Görüntüyü bozmadan sığdırır */
+    border: 5px solid #202020; /* Mavi çerçeve */
+}
+
+/* 3. Eğitim Tablosu Stili */
+.egitim-bilgileri table {
+    width: 100%;
+    border-collapse: collapse; /* Kenarlıkları birleştirir */
+    margin-top: 10px;
+}
+
+.egitim-bilgileri th, .egitim-bilgileri td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.egitim-bilgileri th {
+    background-color: #89b8de;
+    color: white;
+}
+
+/* 4 & 5. Liste Stilleri */
+.yetenekler ul, .ilgi-alanlari ol {
+    padding-left: 20px;
+}
+
+.yetenekler li {
+    list-style-type: square; /* Sırasız liste için kare madde işareti */
+}
+
+/* 6. Özel Etiket Stilleri */
+
+/* <pre> ve <code> */
+pre {
+    background-color: #f4f4f4; /* Kod bloğu için açık gri arka plan */
+    padding: 15px;
+    border: 1px solid #ccc;
+    overflow-x: auto; /* Yatay kaydırma çubuğu sağlar */
+    white-space: pre-wrap; /* Uzun satırları otomatik sarar */
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    color: #c7254e; /* Kod metni için belirgin renk */
+}
+
+/* <blockquote> */
+blockquote {
+    border-left: 5px solid #304f70; /* Sol tarafta mavi çizgi */
+    margin: 1.5em 0;
+    padding: 0.5em 15px;
+    background-color: #e9f5ff; /* Açık mavi arka plan */
+    font-style: italic;
+}
+
+blockquote footer {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-style: normal;
+    color: #555;
+}
+
+/* <abbr> etiketi (kısaltmalar) */
+abbr {
+    text-decoration: underline dotted; /* Kısaltmanın altını noktalı çizgiyle çizer */
+    cursor: help; /* Fare imleci üzerine gelince yardım simgesi çıkar */
+    color: #630000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.8em;
+}

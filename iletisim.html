@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>İletişim</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style4.css">
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="assets/images/fotoğrafım.jpeg" alt="">
+			<span class="title">Gözde Gündüz</span>
+			<span class="tagline">Bilgisayar Programcılığı<br>
+				<a href="">gozdegunduz66@icloud.com</a></span>
+		</h1>
+	</div>
+
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			
+			<div class="navbar-collapse collapse">
+				
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Anasayfa</a></li>
+					<li><a href="hakkimda.html">Hakkımda</a></li>
+					
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projeler<b class="caret"></b></a>
+						
+						<ul class="dropdown-menu">
+							<li><a href="karakalem.html">Karakalem Renklendirme</a></li>
+							<li><a href="OneCikarma.html">Öne Çıkarma</a></li>
+							<li><a href="UrunTanitim.html">Ürün Tanıtım</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+					<li><a href="contact.html">| English</a></li>
+				</ul>
+			
+			</div><!--/.nav-collapse -->			
+		</div>	
+	</nav>
+</header>
+
+<main id="main">
+ <section id="iletisim" class="iletisim-container">
+    <h2>📩 Benimle İletişime Geçin</h2>
+    <p class="iletisim-giris">Proje teklifleriniz, işbirlikleri veya sadece merhaba demek için aşağıdaki formu kullanabilirsiniz. En kısa sürede size dönüş yapacağım.</p>
+    
+    <div class="iletisim-grid">
+        
+        <div class="form-alani">
+            <h3>Mesajınızı Gönderin</h3>
+            <form action="gonderme_islemi.php" method="POST" class="iletisim-formu">
+                
+                <div class="form-grup">
+                    <label for="adSoyad">Adınız Soyadınız:</label>
+                    <input type="text" id="adSoyad" name="adSoyad" required>
+                </div>
+                
+                <div class="form-grup">
+                    <label for="email">E-posta Adresiniz:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-grup">
+                    <label for="konu">Konu:</label>
+                    <input type="text" id="konu" name="konu" required>
+                </div>
+                
+                <div class="form-grup">
+                    <label for="mesaj">Mesajınız:</label>
+                    <textarea id="mesaj" name="mesaj" rows="6" required></textarea>
+                </div>
+                
+                <button type="submit" class="gonder-btn">Gönder</button>
+                
+            </form>
+        </div>
+
+        <div class="bilgi-alani">
+            <h3>Alternatif Bilgiler</h3>
+            
+            <div class="bilgi-kart">
+                <h4>E-posta</h4>
+                <p>gozdegunduz66@icloud.com</p>
+            </div>
+            
+            <div class="bilgi-kart">
+                <h4>Telefon</h4>
+                <p>+90 (552) 567 85 65</p>
+            </div>
+            
+            <div class="bilgi-kart">
+                <h4>Konum</h4>
+                <p>Türkiye, Antalya</p>
+            </div>
+
+            <div class="sosyal-medya">
+                <h4>Beni Takip Edin</h4>| 
+                <a href="https://instagram.com/gozzde_gz" target="_blank" class="sosyal-icon">İnstagram</a>
+            </div>
+        </div>
+    </div>
+</section>
+	
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">İletişim</h3>
+				<div class="widget-body">
+					<p>Email Adresi<br>
+						<a href="mailto:#">gozdegunduz66@icloud.com</a><br>
+					
+					</p>	
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Adres</h3>
+				<div class="widget-body">
+					<p>Antalya/Konyaaltı</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Ad Soyad</h3>
+				<div class="widget-body">
+					<p>Gözde Gündüz</p>
+					
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Sosyal Medya</h3>
+				<div class="widget-body">
+					<p>İnstagram<br>
+						<a href="https://www.instagram.com/gozzde_gz">gozzde_gz</a><br>
+					
+						
+					</p>	
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 widget">
+				<div class="widget-body"></div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						 &copy; 2025, Gözde Gündüz<br> 
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+</body>
+</html>
